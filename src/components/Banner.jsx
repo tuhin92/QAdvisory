@@ -13,7 +13,7 @@ const Banner = () => {
     }, [totalSlides]);
 
     return (
-        <div className="carousel w-full h-[600px]">
+        <div id='home' className="carousel w-full h-[600px]">
             <div id="slide1" className={`carousel-item relative w-full ${currentSlide === 1 ? 'block' : 'hidden'}`}>
                 <div className="relative w-full h-full bg-slate-950 rounded-xl overflow-hidden">
                     <img src='https://i.ibb.co/989TcmY/pexels-sora-shimazaki-5673488.jpg' className="w-full h-full object-cover rounded-xl opacity-75" />
