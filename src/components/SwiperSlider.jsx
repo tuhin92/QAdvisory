@@ -36,7 +36,7 @@ const SwiperSlider = () => {
                 <div className="card bg-[#f5c3df] text-primary-content w-[500px] h-[300px]">
                     <div className="card-body">
                         <h2 className="text-center">MODERN & SIMPLE</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
                     </div>
                 </div>
             </SwiperSlide>
@@ -44,7 +44,7 @@ const SwiperSlider = () => {
                 <div className="card bg-[#f5c3df] text-primary-content w-[500px] h-[300px]">
                     <div className="card-body">
                         <h2 className="text-center">COST EFFECTIVENESS</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
                     </div>
                 </div>
             </SwiperSlide>
@@ -52,7 +52,7 @@ const SwiperSlider = () => {
                 <div className="card bg-[#f5c3df] text-primary-content w-[500px] h-[300px]">
                     <div className="card-body">
                         <h2 className="text-center">TIMELY DELIVERY</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
                     </div>
                 </div>
             </SwiperSlide>
@@ -60,7 +60,7 @@ const SwiperSlider = () => {
                 <div className="card bg-[#f5c3df] text-primary-content w-[500px] h-[300px]">
                     <div className="card-body">
                         <h2 className="text-center">UNIQUE IDEAS</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ea nemo error quae eum cupiditate temporibus, veniam cumque perferendis, laudantium esse nostrum nihil voluptatum, architecto soluta. Eos soluta ab ad!</p>
                     </div>
                 </div>
             </SwiperSlide>

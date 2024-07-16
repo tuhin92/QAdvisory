@@ -49,8 +49,8 @@ const About = () => {
 
 
             {/* why chose us  */}
-            <div className='my-12'>
-                <h2 className='text-3xl text-center'>Why <span className='text-[#a00d63]'>Choose</span> Us</h2>
+            {/* <div className='my-12'>
+                <h2 className='text-3xl text-center'>WHY <span className='text-[#a00d63]'>CHOOSE</span> US</h2>
                 <div className='flex justify-evenly'>
                     <div className='mt-24'>
                         <SwiperSlider></SwiperSlider>
@@ -59,7 +59,24 @@ const About = () => {
                         <img className='h-[85%]' src="https://i.ibb.co/Lrn49zf/happy-attractive-woman-having-fun-pointing-fingers-up-dancing-carefree-smiling-upbeat-standing-again.png" alt="" />
                     </div>
                 </div>
+            </div> */}
+            <div>
+                <h2 className='text-3xl text-center'>WHY <span className='text-[#a00d63]'>CHOOSE</span> US</h2>
+
+                <div className="hero bg-base-200 -mt-12">
+                    <div className="hero-content flex-col lg:flex-row-reverse">
+                        <img
+                            src="https://i.ibb.co/Lrn49zf/happy-attractive-woman-having-fun-pointing-fingers-up-dancing-carefree-smiling-upbeat-standing-again.png"
+                            className="max-w-sm " />
+                        <div className='flex justify-evenly'>
+                            <div className='mt-24'>
+                                <SwiperSlider></SwiperSlider>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     );
 };
