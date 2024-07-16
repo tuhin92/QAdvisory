@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SwiperSlider from './SwiperSlider';
 
 const ManualProgressBar = ({ value, label }) => {
     return (
@@ -33,7 +34,7 @@ const About = () => {
                 <div className='w-full md:w-1/2 pr-8'>
                     <h2 className='text-2xl font-semibold'>A Little Brief About Us</h2>
                     <p className='mt-4 text-gray-500'>
-                    At QAdvisory, we specialize in providing top-notch consultancy, finance, advertising, and planning services. Our mission is to support businesses with innovative online solutions and super ideas that drive growth and success. With a team of experienced professionals, we offer personalized strategies that cater to the unique needs of each client. <br /> <br /> Our commitment to excellence and our passion for innovation make us a trusted partner for businesses seeking to enhance their operations and achieve their goals.
+                        At QAdvisory, we specialize in providing top-notch consultancy, finance, advertising, and planning services. Our mission is to support businesses with innovative online solutions and super ideas that drive growth and success. With a team of experienced professionals, we offer personalized strategies that cater to the unique needs of each client. <br /> <br /> Our commitment to excellence and our passion for innovation make us a trusted partner for businesses seeking to enhance their operations and achieve their goals.
                     </p>
                     <button className="btn bg-[#a00d63] text-white hover:bg-slate-400">More About</button>
                 </div>
@@ -42,6 +43,21 @@ const About = () => {
                     {progressValues.map((progress, index) => (
                         <ManualProgressBar key={index} value={progress.value} label={progress.label} />
                     ))}
+                </div>
+            </div>
+
+
+
+            {/* why chose us  */}
+            <div className='my-12'>
+                <h2 className='text-3xl text-center'>Why <span className='text-[#a00d63]'>Choose</span> Us</h2>
+                <div className='flex justify-evenly'>
+                    <div className='mt-24'>
+                        <SwiperSlider></SwiperSlider>
+                    </div>
+                    <div>
+                        <img className='h-[85%]' src="https://i.ibb.co/Lrn49zf/happy-attractive-woman-having-fun-pointing-fingers-up-dancing-carefree-smiling-upbeat-standing-again.png" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

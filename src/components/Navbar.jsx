@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink to='#banner' className="no-underline">Home</NavLink></li>
-        <li><NavLink to='#about' className="no-underline">About</NavLink></li>
-        <li><NavLink to='#service' className="no-underline">Service</NavLink></li>
-        <li><NavLink to='#work' className="no-underline">Work</NavLink></li>
-        <li><NavLink to='#team' className="no-underline">Team</NavLink></li>
-        <li><NavLink to='#blog' className="no-underline">Blog</NavLink></li>
-        <li><NavLink to='#pricing' className="no-underline">Pricing</NavLink></li>
-        <li><NavLink to='#shop' className="no-underline">Shop</NavLink></li>
-        <li><NavLink to='#contact' className="no-underline">Contact</NavLink></li>
+        <li><a href='#home' className="no-underline">Home</a></li>
+        <li><a href='#about' className="no-underline">About</a></li>
+        <li><a href='#service' className="no-underline">Service</a></li>
+        <li><a href='#work' className="no-underline">Work</a></li>
+        <li><a href='#team' className="no-underline">Team</a></li>
+        <li><a href='#blog' className="no-underline">Blog</a></li>
+        <li><a href='#pricing' className="no-underline">Pricing</a></li>
+        <li><NavLink href='#shop' className="no-underline">Shop</NavLink></li>
+        <li><a href='#contact' className="no-underline">Contact</a></li>
     </>
     return (
         <div className="navbar max-w-7xl mx-auto">
