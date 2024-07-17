@@ -3,7 +3,7 @@ import { FaRegLightbulb, FaRegMoneyBillAlt } from 'react-icons/fa';
 import { HiSpeakerphone } from 'react-icons/hi';
 import { LuBrainCircuit } from 'react-icons/lu';
 import { MdOutlineSupportAgent } from 'react-icons/md';
-import { SiConsul,  } from "react-icons/si";
+import { SiConsul } from "react-icons/si";
 
 const OurServices = () => {
     return (
@@ -12,7 +12,7 @@ const OurServices = () => {
 
             <div className='max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center p-4'>
                 {/* card-1  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:-scale-x-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <SiConsul size={45} />
@@ -23,7 +23,7 @@ const OurServices = () => {
                 </div>
 
                 {/* card-2  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:scale-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <FaRegMoneyBillAlt size={45} />
@@ -34,7 +34,7 @@ const OurServices = () => {
                 </div>
 
                 {/* card-3  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:scale-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <HiSpeakerphone size={45} />
@@ -45,7 +45,7 @@ const OurServices = () => {
                 </div>
 
                 {/* card-4  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:scale-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <FaRegLightbulb size={45} />
@@ -56,7 +56,7 @@ const OurServices = () => {
                 </div>
 
                 {/* card-5  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:scale-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <MdOutlineSupportAgent size={45} />
@@ -67,7 +67,7 @@ const OurServices = () => {
                 </div>
 
                 {/* card-6  */}
-                <div className="card bg-white text-primary-content w-96">
+                <div className="card bg-white text-primary-content w-96 transition-transform transform hover:scale-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">
                         <div className='text-center'>
                             <LuBrainCircuit size={45} />
