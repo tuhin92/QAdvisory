@@ -28,3 +28,56 @@ body {
   display: block;
   width: 100%;
 }
+
+
+
+
+
+.card {
+  position: relative;
+  width: 24rem; /* equivalent to w-96 */
+  height: 16rem; /* equivalent to h-64 */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* shadow-xl */
+  overflow: hidden;
+  border-radius: 1rem; /* equivalent to rounded-2xl */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  border-radius: inherit; /* Ensure the image has the same rounded corners as the card */
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Gray shadow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-radius: inherit; /* Ensure the overlay has the same rounded corners as the card */
+  transform: scale(1.1);
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card-text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+

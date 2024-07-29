@@ -68,7 +68,7 @@ const About = () => {
                         <img
                             src="https://i.ibb.co/Lrn49zf/happy-attractive-woman-having-fun-pointing-fingers-up-dancing-carefree-smiling-upbeat-standing-again.png"
                             className="max-w-sm " />
-                        <div className='flex justify-evenly'>
+                        <div className='flex justify-between'>
                             <div className='mt-24'>
                                 <SwiperSlider></SwiperSlider>
                             </div>

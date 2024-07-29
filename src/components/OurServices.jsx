@@ -10,7 +10,7 @@ const OurServices = () => {
         <div id='service' className='bg-gray-200 my-12 p-4'>
             <h2 className='text-3xl text-center'>OUR <span className='text-[#a00d63]'>SERVICE</span></h2>
 
-            <div className='max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center p-4'>
+            <div className='max-w-7xl mx-2 grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center'>
                 {/* card-1  */}
                 <div className="card bg-white text-primary-content w-96 transition-transform transform hover:-scale-x-105 shadow-lg hover:shadow-2xl hover:translate-y-2">
                     <div className="card-body">

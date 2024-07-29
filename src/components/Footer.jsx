@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer w-auto bg-slate-400 text-base-content p-10">
+        <footer className="footer w-auto bg-slate-400 text-base-content p-10 mt-12">
             <aside>
                 <img className='h-30 w-48' src="https://i.ibb.co/TW1kgB4/photo-2024-07-15-23-25-24-removebg-preview.png" alt="" />
                 <p className='text-center'>
