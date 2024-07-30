@@ -3,6 +3,7 @@ import Banner from './Banner';
 import About from './About';
 import OurServices from './OurServices';
 import LatestWork from './LatestWork';
+import ProjectHistory from './ProjectHistory';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <div className='max-w-7xl mx-auto'>
                 <LatestWork></LatestWork>
             </div>
+            <ProjectHistory></ProjectHistory>
         </div>
     );
 };
