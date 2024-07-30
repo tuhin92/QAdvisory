@@ -13,7 +13,7 @@ const Subscribe = () => {
                     <div className="">
                         <h4 className="mb-5 text-xl text-white">Subscribe to get the latest news, update and offer information. Let's connect with us.</h4>
                         <input type="email" placeholder="Enter your Email" className="input input-bordered w-96" required /><br />
-                        <button className="mt-6 btn border-none bg-[#a00d63] text-white hover:bg-white hover:text-[#a00d63]">SUBSCRIBE</button>
+                        <button className="mt-6 btn border-none bg-[#a00d63] text-white hover:bg-white hover:text-[#a00d63] px-6">SUBSCRIBE</button>
                     </div>
                 </div>
                 

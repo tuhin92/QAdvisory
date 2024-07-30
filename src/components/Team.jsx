@@ -55,7 +55,7 @@ const Team = () => {
     ];
 
     return (
-        <div className='mt-12'>
+        <div className='mt-12 mx-5'>
             <h2 className='text-3xl text-center my-14'>
                 OUR <span className='text-[#a00d63]'>EXPERTS</span>
             </h2>
