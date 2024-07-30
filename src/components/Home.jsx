@@ -5,6 +5,7 @@ import OurServices from './OurServices';
 import LatestWork from './LatestWork';
 import ProjectHistory from './ProjectHistory';
 import Team from './Team';
+import Subscribe from './Subscribe';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <div className='max-w-7xl mx-auto'>
                 <Team></Team>
             </div>
+            <Subscribe></Subscribe>
         </div>
     );
 };

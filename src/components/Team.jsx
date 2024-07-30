@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 // TeamCard Component
 const TeamCard = ({ image, name, role }) => {
     return (
-        <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border-2 border-yellow-200 bg-white">
+        <div id='team' className="max-w-sm rounded-lg overflow-hidden shadow-lg border-2 border-yellow-200 bg-white">
             <div className="relative group">
                 <img
                     className="w-full"
