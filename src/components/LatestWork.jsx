@@ -50,7 +50,7 @@ const LatestWork = () => {
     const visibleCards = showAll ? cards : cards.slice(0, 6);
 
     return (
-        <div>
+        <div id='work'>
             <h2 className='text-3xl text-center my-12'>LATEST <span className='text-[#a00d63]'>WORKS</span></h2>
 
             <div className='mx-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center'>
