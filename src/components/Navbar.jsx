@@ -116,8 +116,8 @@ const Navbar = () => {
     );
 
     return (
-        <div className={`navbar mx-auto lg:sticky lg:top-0 lg:z-50 transition-colors duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-base-200'}`}>
-            <div className='max-w-7xl mx-auto'>
+        <div className={`lg:sticky lg:top-0 lg:z-50 transition-colors duration-300 ${isScrolled ? 'bg-white' : 'bg-base-200'}`}>
+            <div className='navbar max-w-7xl mx-auto'>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
