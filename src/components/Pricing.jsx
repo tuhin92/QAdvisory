@@ -29,7 +29,9 @@ const Pricing = () => {
                         <hr className="border-gray-50" />
                         <p className="text-gray-600 text-center">24/7 Support</p>
                         <hr className="border-gray-50" />
-
+                        <div className="flex justify-center items-center h-full">
+                            <button className="btn border-none px-6 bg-[#a00d63] text-white hover:bg-slate-400 hover:text-[#a00d63]">GET PLAN</button>
+                        </div>
                     </div>
                 </div>
 
@@ -56,7 +58,9 @@ const Pricing = () => {
                         <hr className="border-gray-50" />
                         <p className="text-gray-600 text-center">24/7 Support</p>
                         <hr className="border-gray-50" />
-
+                        <div className="flex justify-center items-center h-full">
+                            <button className="btn border-none px-6 bg-[#a00d63] text-white hover:bg-slate-400 hover:text-[#a00d63]">GET PLAN</button>
+                        </div>
                     </div>
                 </div>
 
@@ -83,7 +87,9 @@ const Pricing = () => {
                         <hr className="border-gray-50" />
                         <p className="text-gray-600 text-center">24/7 Support</p>
                         <hr className="border-gray-50" />
-
+                        <div className="flex justify-center items-center h-full">
+                            <button className="btn border-none px-6 bg-[#a00d63] text-white hover:bg-slate-400 hover:text-[#a00d63]">GET PLAN</button>
+                        </div>
                     </div>
                 </div>
             </div>
