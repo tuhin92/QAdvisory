@@ -7,6 +7,7 @@ import ProjectHistory from './ProjectHistory';
 import Team from './Team';
 import Subscribe from './Subscribe';
 import Pricing from './Pricing';
+import HireUs from './HireUs';
 
 const Home = () => {
     return (
@@ -27,6 +28,7 @@ const Home = () => {
             <div className='max-w-7xl mx-auto'>
                 <Pricing></Pricing>
             </div>
+            <HireUs></HireUs>
         </div>
     );
 };

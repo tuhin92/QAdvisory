@@ -76,17 +76,6 @@ const Navbar = () => {
             </li>
             <li>
                 <Link
-                    to="blog"
-                    smooth={true}
-                    duration={500}
-                    offset={-70}
-                    className="no-underline cursor-pointer"
-                >
-                    Blog
-                </Link>
-            </li>
-            <li>
-                <Link
                     to="pricing"
                     smooth={true}
                     duration={500}
@@ -95,11 +84,6 @@ const Navbar = () => {
                 >
                     Pricing
                 </Link>
-            </li>
-            <li>
-                <NavLink to="#shop" className="no-underline cursor-pointer">
-                    Shop
-                </NavLink>
             </li>
             <li>
                 <Link
