@@ -5,7 +5,12 @@ import 'leaflet/dist/leaflet.css'; // Import Leaflet CSS
 const Map = () => {
     return (
         <div className='mt-12'>
-            <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '300px' }}>
+            <MapContainer 
+                center={[51.505, -0.09]} 
+                zoom={20} 
+                style={{ height: '300px' }} 
+                scrollWheelZoom={false} // Disable scroll wheel zoom
+            >
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
