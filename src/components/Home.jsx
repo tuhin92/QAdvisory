@@ -9,6 +9,7 @@ import Subscribe from './Subscribe';
 import Pricing from './Pricing';
 import HireUs from './HireUs';
 import Contact from './Contact';
+import Map from './Map';
 
 const Home = () => {
     return (
@@ -31,6 +32,9 @@ const Home = () => {
             </div>
             <HireUs></HireUs>
             <Contact></Contact>
+            <div className=''>
+                <Map></Map>
+            </div>
         </div>
     );
 };
