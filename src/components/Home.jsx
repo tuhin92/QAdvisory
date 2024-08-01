@@ -8,6 +8,7 @@ import Team from './Team';
 import Subscribe from './Subscribe';
 import Pricing from './Pricing';
 import HireUs from './HireUs';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
                 <Pricing></Pricing>
             </div>
             <HireUs></HireUs>
+            <Contact></Contact>
         </div>
     );
 };
