@@ -10,9 +10,9 @@ const Contact = () => {
             <h2 className='mt-12 text-center text-3xl'>CONNECT <span className='text-[#a00d63]'>WITH US</span></h2>
 
             {/* parent div */}
-            <div className='grid grid-cols-1 md:grid-cols-2'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-start mt-8'>
                 {/* left div */}
-                <div className='w-full lg:w-1/2 pr-4'>
+                <div>
                     <h2 className='text-2xl font-bold mb-4'>CONTACT INFO</h2>
                     <p className='mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quisquam illum tempora necessitatibus nemo tempore.</p>
 
@@ -42,13 +42,13 @@ const Contact = () => {
                 </div>
 
                 {/* right div */}
-                <div className='w-full lg:w-1/2 pl-4'>
-                    <div className="p-6 rounded">
-                        <form className="w-full max-w-lg mx-auto">
+                <div>
+                    <div className="p-6 items-center">
+                        <form className="w-full">
                             {/* Name Field */}
                             <div className="mb-4">
                                 <input
-                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none "
                                     id="name"
                                     type="text"
                                     placeholder="Your Name"
@@ -78,7 +78,7 @@ const Contact = () => {
                             {/* Submit Button */}
                             <div className="flex items-center justify-center">
                                 <button
-                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                    className="bg-[#a00d63] hover:bg-slate-400 text-white hover:text-[#a00d63] font-bold py-2 px-6 rounded border-none"
                                     type="button"
                                 >
                                     Send Message
