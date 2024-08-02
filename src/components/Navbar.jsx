@@ -131,9 +131,9 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                {/* <div className="navbar-end">
                     <NavLink to='/login' className="btn bg-[#a00d63] hover:bg-slate-400 text-white">Login</NavLink>
-                </div>
+                </div> */}
             </div>
         </div>
     );
