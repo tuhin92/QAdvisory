@@ -100,7 +100,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className={`lg:sticky lg:top-0 lg:z-50 transition-colors duration-300 ${isScrolled ? 'bg-white' : 'bg-base-200'}`}>
+        <div className={`sticky top-0 z-50 transition-colors duration-300 ${isScrolled ? 'bg-white' : 'bg-base-200'}`}>
             <div className='navbar max-w-7xl mx-auto'>
                 <div className="navbar-start">
                     <div className="dropdown">
