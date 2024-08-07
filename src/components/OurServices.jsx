@@ -4,6 +4,7 @@ import { HiSpeakerphone } from 'react-icons/hi';
 import { LuBrainCircuit } from 'react-icons/lu';
 import { MdOutlineSupportAgent } from 'react-icons/md';
 import { SiConsul } from "react-icons/si";
+import 'animate.css';
 
 const OurServices = () => {
     return (
